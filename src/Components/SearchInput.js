@@ -22,7 +22,6 @@ class SearchInput extends Component {
           placeholder="Search Books..."
           onChange={this.onChange.bind(this)}
         />
-        <Button bsStyle="primary" className="add-button">Add Button</Button>
       </Well>
     );
   }
