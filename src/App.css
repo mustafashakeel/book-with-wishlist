@@ -1,7 +1,58 @@
 .rating{
   font-size: 30px;
-  color:#fff;
+  color:#000;
   padding: 5px 10px;
-  background: #333;
+  background: #fff;
   border-radius: 5px;
+}
+
+.navbar-default{
+	background-color: lightgrey !important;
+	border-color:lightgrey !important;
+}
+.navbar-header {
+	margin: 0 auto;
+    margin-left: 45% !important;
+}
+.navbar-default .navbar-brand {
+    color: black !important;
+}
+.book-headers{
+	color:black !important;
+	margin-left: 30px;
+    margin-top: 20px;
+}
+body, .container {
+	background-color: lightgrey;
+}
+.container {
+	max-width: 600px;
+}
+.well {
+	background-color: inherit !important;
+	border: 0px !important;
+}
+.book-row {
+    background: white;
+    margin-bottom: 25px;
+}
+.book-image {
+	margin-top: 30px;
+    margin-left: 20px;
+}
+.count, .authors {
+	color: black;
+}
+.authors {
+	margin-left: 20px;
+}
+.book-header{
+	font-size: 40px;
+}
+.description {
+	padding:15px;
+}
+.add-button {
+	margin-top: 40px;
+    margin-left: 45%;	
 }

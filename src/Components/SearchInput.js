@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Well, FormControl} from 'react-bootstrap';
+import {Well,Button, FormControl} from 'react-bootstrap';
 
 class SearchInput extends Component {
   constructor(props){
@@ -8,7 +8,6 @@ class SearchInput extends Component {
         value: props.value
       }
   }
-
   onChange(e){
       this.setState({value: e.target.value});
       this.props.onChange(this.state.value);
@@ -23,6 +22,7 @@ class SearchInput extends Component {
           placeholder="Search Books..."
           onChange={this.onChange.bind(this)}
         />
+        <Button bsStyle="primary" className="add-button">Add Button</Button>
       </Well>
     );
   }

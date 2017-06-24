@@ -7,7 +7,7 @@ class Header extends Component {
       <Navbar>
         <Navbar.Header>
           <Navbar.Brand>
-            BookFinder
+            <span className="books-header">My Books</span>
           </Navbar.Brand>
         </Navbar.Header>
       </Navbar>

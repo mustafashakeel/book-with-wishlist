@@ -11,7 +11,7 @@ class App extends Component {
     super();
     this.state = {
       books:[],
-      text:'Harry Potter'
+      text:'Information architecture'
     }
   }
 
@@ -25,7 +25,6 @@ class App extends Component {
       url:'https://www.googleapis.com/books/v1/volumes?q='+this.state.text
     }).then((response) => {
       this.setState({books: response.data.items}, () => {
-        console.log(this.state);
       });
     }).catch((error) => {
       console.log(error);
